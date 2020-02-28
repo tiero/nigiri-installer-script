@@ -140,7 +140,7 @@ curl -o $NIGIRI_FOLDER/$REGTEST_COMPOSE_FILE -sL "$URL/$REGTEST_COMPOSE_FILE"
 curl -o $NIGIRI_FOLDER/$LIQUID_COMPOSE_FILE -sL "$URL/$LIQUID_COMPOSE_FILE"
 curl -o $REGTEST_FOLDER/config/bitcoin.conf -sL "$URL/$REGTEST_VOLUME/config/bitcoin.conf"
 curl -o $LIQUID_FOLDER/config/bitcoin.conf -sL "$URL/$LIQUID_VOLUME/config/bitcoin.conf"
-curl -o $LIQUID_FOLDER/liquid-config/liquid.conf -sL "$URL/$LIQUID_VOLUME/liquid-config/liquid.conf"
+curl -o $LIQUID_FOLDER/liquid-config/elements.conf -sL "$URL/$LIQUID_VOLUME/liquid-config/elements.conf"
 
 echo "Checking for Docker and Docker compose..."
 if [ "$(command -v docker)" == "" ]; then
