@@ -123,7 +123,7 @@ if [ "$PATH" != *"$BIN"* ]; then
 fi
 
 echo "Creating data directory ~/.nigiri..."
-URL="https://raw.githubusercontent.com/vulpemventures/nigiri/$TAG/resources"
+URL="https://raw.githubusercontent.com/tiero/nigiri/$TAG/resources"
 NIGIRI_FOLDER=~/.nigiri/resources
 REGTEST_VOLUME=volumes/regtest
 LIQUID_VOLUME=volumes/liquidregtest
